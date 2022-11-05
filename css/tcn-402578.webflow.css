@@ -345,7 +345,7 @@ a {
   line-height: 5vh;
 }
 
-.slide {
+.slide-0 {
   background-image: url('../images/PXL_20220218_182004651-min.jpg');
   background-position: 50% 50%;
   background-size: 500px;
@@ -355,6 +355,7 @@ a {
 .slider {
   width: 1400px;
   height: 300px;
+  min-width: 400px;
   margin-left: -70px;
   border-radius: 5px;
 }
@@ -535,7 +536,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 10px;
   padding-left: 20px;
   -webkit-box-orient: vertical;
@@ -552,6 +553,7 @@ a {
 .grid-2 {
   padding-right: 100px;
   padding-left: 100px;
+  justify-items: center;
 }
 
 .contact-section {
@@ -637,8 +639,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding: 20px 100px 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -710,7 +711,7 @@ a {
 }
 
 .logo-mid.w--current {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .heading-5 {
@@ -726,7 +727,7 @@ a {
   background-color: #ecb431;
 }
 
-.slide-6 {
+.slide-4 {
   background-image: url('../images/20220928_132635-min.jpg');
   background-position: 50% 0%;
   background-size: cover;
@@ -751,7 +752,9 @@ a {
 }
 
 .tcn-logo-nav {
-  margin-top: 50px;
+  position: static;
+  display: inline-block;
+  margin-top: 100px;
 }
 
 .contact-text-block {
@@ -812,7 +815,16 @@ a {
 }
 
 .form-block {
-  width: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-family: Myriadpro, sans-serif;
 }
 
@@ -830,7 +842,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 20px 60px;
+  padding: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -952,9 +964,37 @@ a {
   padding-bottom: 100px;
 }
 
+.slide-1 {
+  background-image: url('../images/20221027_122012-min.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.contact-cards-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 1280px) {
   .tcn-heading {
     font-size: 6vh;
+  }
+
+  .slider {
+    width: auto;
+    max-width: 600px;
   }
 }
 
@@ -977,6 +1017,15 @@ a {
     line-height: 6vh;
   }
 
+  .slider {
+    width: auto;
+    height: 300px;
+    max-width: 600px;
+    min-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .meetingsarchiveblock-heading {
     font-size: 5vh;
     line-height: 6vh;
@@ -990,6 +1039,20 @@ a {
   .contact-section.center {
     height: 100vh;
     padding-top: 0vh;
+  }
+
+  .navbar_link {
+    padding-top: 34px;
+  }
+
+  .tcn-logo-nav {
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact-page-container {
+    padding-top: 220px;
   }
 
   .contact-heading {
@@ -1049,7 +1112,7 @@ a {
     line-height: 6vh;
   }
 
-  .slide {
+  .slide-0 {
     width: auto;
   }
 
@@ -1103,6 +1166,10 @@ a {
     background-color: #f5f5f5;
   }
 
+  .tcn-logo-nav {
+    max-width: 75%;
+  }
+
   .menu-button {
     -webkit-filter: invert(100%);
     filter: invert(100%);
@@ -1122,7 +1189,7 @@ a {
   .container {
     margin-top: -50px;
     padding-right: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     padding-left: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1132,7 +1199,7 @@ a {
   }
 
   .div-block-14 {
-    margin-top: 10px;
+    margin-top: 60px;
     padding-right: 20px;
     padding-left: 0px;
   }
@@ -1203,13 +1270,18 @@ a {
     padding-left: 0vw;
   }
 
+  .text-block-3 {
+    font-size: 18px;
+  }
+
   .discord_button {
-    width: 320px;
+    width: 300px;
+    font-size: 12px;
   }
 
   .container {
     padding-right: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1296,12 +1368,13 @@ a {
   }
 
   .contact-section.center {
+    padding-top: 10vh;
     padding-bottom: 10vh;
   }
 
   .textblock-home {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 14px;
     line-height: 18px;
   }
@@ -1316,10 +1389,17 @@ a {
     padding-left: 5px;
   }
 
+  .form-block {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .contact-page-container {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    width: 70%;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .contact-heading {
@@ -1328,7 +1408,7 @@ a {
   }
 }
 
-#w-node-f3345e2b-1a3e-16c0-8354-c9e32d33afc3-72d5e829 {
+#w-node-ef352c53-a01f-c225-f78d-8a9b99335fdd-72d5e829 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
