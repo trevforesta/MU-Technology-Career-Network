@@ -260,6 +260,11 @@ a {
   background-repeat: repeat;
 }
 
+.slide-0.jobfair {
+  background-image: url('../images/jobfair-1-min.jpg');
+  background-size: cover;
+}
+
 .slider {
   width: 1400px;
   height: 300px;
@@ -280,10 +285,18 @@ a {
   background-size: cover;
 }
 
+.slide-2.jobfair {
+  background-image: url('../images/jobfair-4-min.jpg');
+}
+
 .slide-3 {
   background-image: url('../images/20211203_114000-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.slide-3.jobfair {
+  background-image: url('../images/jobfair-5-min.jpg');
 }
 
 .meetings-archive-header {
@@ -371,7 +384,7 @@ a {
 }
 
 .slide-5 {
-  background-image: url('../images/IMG_20211203_113555-min-min.jpg');
+  background-image: url('../images/jobfair-6-min.jpg');
   background-position: 0% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -557,6 +570,10 @@ a {
   background-size: cover;
 }
 
+.slide-4.jobfair {
+  background-image: url('../images/jobfair-7-min.jpg');
+}
+
 .video-container {
   display: flex;
   width: 50%;
@@ -724,6 +741,10 @@ a {
   background-size: cover;
 }
 
+.slide-1.jobfair {
+  background-image: url('../images/jobfair-3-min.jpg');
+}
+
 .contact-cards-wrapper {
   display: flex;
   padding-bottom: 100px;
@@ -756,6 +777,10 @@ a {
   background-image: url('../images/PXL_20230413_170239785.MP-2.jpg');
   background-position: 0px 0px;
   background-size: cover;
+}
+
+.slide-6.jobfair {
+  background-image: url('../images/jobfair-2-min.jpg');
 }
 
 @media screen and (min-width: 1280px) {
