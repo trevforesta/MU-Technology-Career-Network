@@ -92,7 +92,7 @@ a {
   padding-top: 100px;
   padding-bottom: 60px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: transparent;
 }
 
@@ -168,8 +168,8 @@ a {
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 .tcn-heading {
@@ -458,6 +458,7 @@ a {
 }
 
 .contact-section.center {
+
   position: relative;
   display: flex;
   height: auto;
